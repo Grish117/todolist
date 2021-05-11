@@ -1,0 +1,1171 @@
+html {
+    font-weight: 100  !important;
+    font-size: 0.9rem  !important;
+    overflow-x: auto;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+/* --------- InputBase --------- */
+.MuiInputBase-input {
+  color: black !important;
+}
+
+.MuiSelect-iconOpen{
+  position: fixed;
+  
+}
+
+/* --------- Toolbar --------- */
+.ToolbarShow {
+    float: left;
+    width: auto !important;
+    position: relative !important;
+    background-color: white !important;
+}
+
+.ToolbarInvites {
+  float: right;
+  width: auto !important;
+  position: relative !important;
+  background-color: white !important;
+}
+
+.ToolbarEditCreate {
+  display: flex !important;
+  justify-content: space-between; 
+}
+
+/* --------- Table Header --------- */
+.MuiTableCell-sizeSmall {
+  padding: 6px 0px 6px 16px !important;
+}
+
+ .MuiTableCell-head {
+    line-height: 2.0rem !important;
+    background-color: #e1e1e1 !important;
+}
+
+.TextboxEdit{
+  width: 52% !important;
+}
+
+.TextboxShow{
+  width: 48% !important;
+  float: none !important;
+}
+
+/* --------- Menu OverFlow --------- */
+.sidebar{
+  overflow: hidden ;
+  text-overflow: ellipsis ;
+  width: 100% !important;
+}
+
+/* --------- File Model --------- */
+.file-padding{
+  padding-top:2%;
+  padding-bottom:2%;
+  padding-left: 1%;
+}
+
+.MuiDialog-paperFullScreen{
+  overflow: hidden !important;
+}
+
+.ModelView {
+  width:80% !important;
+  max-width: 80% !important;
+  margin-left:10%;
+}
+
+.appBar {
+  position: relative !important;
+  background-color: #0000A0 !important;
+  height:3% !important;
+}
+
+.toolbar {
+  background-color: #0000A0 !important;
+  margin-top: 0px !important;
+}
+
+.closeButton {
+  position: absolute !important;
+  right: 8px !important;
+  color:white !important;
+  bottom: 4px;
+}
+
+/* --------- Share Button --------- */
+
+.close {
+  float: right !important;
+  color:white !important;
+}
+
+.sendButton {
+  float: right !important;
+}
+
+.dialogBox {
+  /* max-height: 80% !important; */
+  width:80% !important;
+  max-width: 80% !important;
+  margin-left:10%;
+}
+
+.h1 .h2 .h3 .h4 .h5 {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.MuiTableCell-root {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.brandLogo {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+/* --------- PopOver Button --------- */
+
+.filter {
+  /* position: absolute !important; */
+  margin-top: 3% !important;
+}
+.color{
+  background-color: lawngreen !important;
+}
+/* .MuiPopover-root {
+  position: absolute !important;
+  margin-top: 3% !important;
+} */
+
+/* --------------------------------------- Invoices ------------------------------------- */
+
+.typography {
+  width: 100% !important;
+  text-align: center ;
+}
+
+.border{
+  border-style:solid;
+  border-width: thin ;
+  width:100% !important;
+  border-color:rgba(0, 0, 0, 0.12);
+}
+
+.Masterborder{
+  border-style:solid;
+  border-width: 2px ;
+  width:100% !important;
+  border-color: #e0e0e0;
+  box-shadow: 5px 5px #d3d3d3;
+}
+
+.margin{
+  margin:0.7% ;
+}
+
+.marginTop{
+  margin-top: 0.9em !important;
+}
+
+.flexBasic{
+  flex-basis:49% !important;
+}
+
+.flexBasicPadding{
+  flex-basis:49% !important;
+  padding:0.5em 1em 1em 1em !important;
+}
+
+.Divider{
+  width: 100% ; 
+  margin-bottom: 0.5em !important;
+  right:0.5em;
+  position:relative;
+  padding-right:1.9em ; 
+}
+
+.Divider1{
+  width: 100% ; 
+  margin-bottom: 0.5em !important;
+  right:0.5em;
+  position:relative;
+  padding-right:1.1em ; 
+}
+
+.Divider2{
+  width: 100% ; 
+  margin-bottom: 1em !important;
+  right:0.5em;
+  margin-top: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ; 
+}
+
+.Divider3{
+  width: 100% ; 
+  right:0.5em;
+  margin-top: 1em !important;
+  position:relative;
+  padding-right:1.9em ; 
+}
+
+.Divider4{
+  width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ; 
+}
+
+.Divider5{
+  width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ; 
+}
+
+.Divider6{
+  width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ; 
+}
+
+.Divider7{
+  width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  position:relative;
+  padding-right:1.9em ; 
+}
+
+.Divider8{
+  width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  position:relative;
+  padding-right:1.9em ; 
+}
+
+.paddingBottom{
+  padding-bottom: 7.2em;
+}
+
+.paddingBottom1 {
+  padding-bottom: 12em;
+}
+
+.maxWidth{
+  max-width:5% !important;
+}
+
+.maxWidth1{
+  max-width:13% !important;
+}
+
+.maxWidth2{
+  max-width:15% !important;
+}
+
+.maxWidth3{
+  max-width:14% !important;
+}
+
+.maxWidth4{
+  max-width:11% !important;
+}
+
+.textAlign{
+  text-align: center;
+}
+
+.textAlign1{
+  text-align: left;
+}
+
+.textAlign2{
+  text-align: right;
+}
+
+.paddingTop{
+  padding-top: 0.5em !important;
+}
+
+.descriptionGoods{
+  display: block;
+  float: left;
+  width:30% !important;
+  margin-left: 10px !important;
+}
+
+.unitQuantity{
+  display: block;
+  float: left;
+  width:10% !important;
+  margin-left: 10px !important;
+}
+
+.unitType{
+  display: block;
+  float: left;
+  width:15% !important;
+  margin-left: 10px !important;
+}
+
+.priceAmount{
+  display: block;
+  float: left;
+  width:11% !important;
+  margin-left: 10px !important;
+}
+
+.marks_number{
+  display: block;
+  float: left;
+  width:18% !important;
+  margin-left: 10px !important;
+}
+
+.description_goods{
+  display: block;
+  float: left;
+  width:26% !important;
+  margin-left: 10px !important;
+}
+
+.measure_package{
+  display: block;
+  float: left;
+  width:18% !important;
+  margin-left: 10px !important;
+}
+
+.container_no{
+  display: block;
+  float: left;
+  width:25% !important;
+  margin-left: 10px !important;
+}
+
+.seal_no{
+  display: block;
+  float: left;
+  width:25% !important;
+  margin-left: 10px !important;
+}
+
+.size{
+  display: block;
+  float: left;
+  width:45% !important;
+  margin-left: 10px !important;
+}
+
+.container_noShow{
+  width:25% ;
+  font-weight:bold !important;
+}
+
+.seal_noShow{
+  width:25% ;
+  font-weight:bold !important;
+}
+
+.sizeShow{
+  width:50% ;
+  font-weight:bold !important;
+}
+
+.BilldescriptionGoods{
+  display: block;
+  float: left;
+  width:24% !important;
+  margin-left: 10px !important;
+}
+
+.wt_packing{
+  display: block;
+  float: left;
+  width:9% !important;
+  margin-left: 10px !important;
+}
+
+.item_no{
+  display: block;
+  float: left;
+  width:13% !important;
+  margin-left: 10px !important;
+}
+
+.invoice_number{
+  display: block;
+  float: left;
+  width:15% !important;
+  margin-left: 10px !important;
+}
+
+.no_package{
+  display: block;
+  float: left;
+  width:16% !important;
+  margin-left: 10px !important;
+}
+
+.measure{
+  display: block;
+  float: left;
+  width:14% !important;
+  margin-left: 10px !important;
+}
+
+.width{
+  width:100% !important;
+}
+
+.consignmentTotal{
+  margin-left: 25%;
+  max-width: 14%;
+  min-width:14%;
+  display:inline-flex;
+}
+
+.totalQality{
+  margin-left: 8%;
+  width: 12%;
+  display:inline-flex;
+}
+
+.totalGross{
+  margin-left: 8%;
+  width: 12%;
+  display:inline-flex;
+}
+
+.totalMeasure{
+  margin-left: 21%;
+  width: 17%;
+  display:inline-flex;
+}
+
+.totalAmount{
+  margin-left: 25%;
+  width: 15%;
+  display:inline-flex;
+}
+
+.paddingLeft{
+  padding-left: 4% !important;
+}
+
+.additionalCharges{
+  display: block;
+  float: left;
+  width:60% !important;
+  margin-left: 10px !important;
+}
+
+.borderShow {
+  border-style:groove ;
+  border-width: thin ;
+  width:99% !important;
+  border-color:rgba(0, 0, 0, 0.87);
+}
+
+.DividerShow{
+  /* width: 100% ;  */
+  /* margin-bottom: 0.5em !important; */
+  margin: 0 -1.4em 0.5em -0.6em !important;
+  /* right:0.5em;
+  position:relative;
+  padding-right:1.8em ;  */
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider1Show{
+  /* width: 100% ;  */
+  margin: 0 -0.6em 0.5em -0.6em !important;
+  /* right:0.5em; */
+  /* position:relative; */
+  /* padding-right:1.1em ;  */
+  background-color: rgba(0, 0, 0, 0.87) !important;
+
+}
+
+.Divider2Show{
+  /* width: 100% ;  */
+  margin-bottom: 1em !important;
+  /* right:0.5em; */
+  margin-top: 0.5em !important;
+  margin: 0.5em -0.6em 1em -0.6em !important;
+
+  /* position:relative;
+  padding-right:1.1em ;  */
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider3Show{
+  /* width: 100% ; 
+  right:0.5em; */
+  /* margin-top: 1em !important; */
+  margin: 1em -1.3em 0em -0.6em !important;
+  /* position:relative;
+  padding-right:1.7em ;  */
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider4Show{
+  /* width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ;  */
+  margin: 0.5em -0.6em 0em -0.6em !important;
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider5Show{
+  /* width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ;  */
+  margin: 0.5em -0.6em 0.5em -0.6em !important;
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider6Show{
+  /* width: 100% ; 
+  right:0.5em;
+  margin-top: 0.5em !important;
+  position:relative;
+  padding-right:1.1em ;  */
+  margin: 0.5em -0.6em 0em -0.6em !important;
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider7Show{
+  /* width: 100% ; 
+  right:0.5em; */
+  /* margin-top: 0.5em !important; */
+  margin: 0.5em -1.4em 0em -0.6em !important;
+  /* position:relative;
+  padding-right:1.9em ;  */
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.Divider8Show{
+  /* width: 100% ; 
+  right:0.5em; */
+  /* margin-top: 0.5em !important; */
+  margin: 0.5em -1.4em 0.5em -0.6em !important;
+  /* position:relative;
+  padding-right:1.9em ;  */
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.paddingBottomShow{
+  padding-bottom: 7.2em;
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.DividerVerticalShow{
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.DividerVerticalShow1{
+  background-color: rgba(0, 0, 0, 0.87) !important;
+  padding-bottom: 7.2em;
+}
+
+.DividerVerticalShow2 {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+  margin-bottom: -0.5em !important;
+}
+
+.DividerVerticalShow3 {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+  margin-bottom: 0.5em !important;
+  margin-top:-0.5rem !important;
+}
+
+.DividerVerticalShow4 {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+  margin-top:-1.7% !important;
+}
+
+.DividerVertical{
+  margin-bottom: 0.5em !important;
+}
+/* .BankTextarea{
+  min-height: 24em;
+}
+
+.addInforTextarea{
+  min-height: 6em;
+}
+
+.methodpayTextarea{
+  min-height: 6em;
+  max-height: 6em;
+} */
+
+.descriptionGoods1 {
+  display: block;
+  float: left;
+  width:30% !important;
+  margin-left: 55px !important;
+}
+
+.unitQuantity1{
+  display: block;
+  float: left;
+  width:10% !important;
+  margin-left: 17px !important;
+}
+
+.unitType1{
+  display: block;
+  float: left;
+  width:15% !important;
+  margin-left: 30px !important;
+}
+
+.consignmentTotalShow{
+  margin-left: 20%;
+  max-width: 14%;
+  min-width:14%;
+  display:inline-flex;
+}
+
+.totalQalityShow{
+  margin-left: 14%;
+  width: 12%;
+  display:inline-flex;
+}
+
+.totalAmountShow{
+  margin-left: 28%;
+  width: 10%;
+  display:inline-flex;
+}
+
+.taxTotalShow{
+  padding-left: 10% !important;
+}
+
+.appBarSend {
+  position: relative !important;
+  padding:0% !important;
+  background-color: #0000A0 !important;
+
+}
+
+.closeButtonSend {
+  float: right;
+  color:white !important;
+}
+
+.backButtonSend {
+  float: left;
+  color:white !important;
+}
+
+.sendTypo {
+  color:white !important;
+  padding: 12px !important;
+}
+
+.descriptionGoodsPacking{
+  display: block;
+  float: left;
+  width:20% !important;
+  margin-left: 10px !important;
+}
+
+.paddingTopPacking{
+  padding-top: 3em !important;
+}
+
+.noPacking {
+  margin-left: 46% !important;
+  margin-right: 0% !important;
+  width: 16% !important;
+}
+
+.wtPacking{
+  margin-left: 1% !important;
+  width: 10% !important;
+}
+
+.grossPacking{
+  margin-left: 1% !important;
+  width: 15% !important;
+}
+
+.MuiFormControl-marginDense{
+  float:left;
+}
+
+.cr {
+  width: 22% !important;
+  padding: 1em;
+  text-align: center;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  background-color: #2c7;
+  margin: 0% 0% 0% -7%;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+}
+
+.descriptionGoodsPackingShow{
+  display: block;
+  float: left;
+  width:18% !important;
+  margin-left: 7% !important;
+}
+
+.noPackingShow {
+  margin-left: 44% !important;
+  margin-right: 0% !important;
+  width: 16% !important;
+}
+
+.unitQuantityShow{
+  display: block;
+  float: left;
+  width:9% !important;
+  margin-left: 0.5% !important;
+}
+
+.fontWeightShow {
+  font-weight: bold !important;
+}
+
+/* --------- Invoice Table /Filing --------- */
+
+.table {
+  table-layout:fixed;
+}
+
+.tableRow {
+  display: flex !important;
+}
+
+.additionalChargesShow {
+  width:66.666667% ;
+  font-weight:bold !important;
+  padding-right:0px !important;
+  overflow-wrap: anywhere;
+}
+
+.additionalValuesShow {
+  font-weight:bold !important;
+   padding-right:0px !important;
+}
+
+.product_numberShow {
+  width: 15.5%;
+  padding:16px 4px 16px 4px !important;
+  font-weight: bold !important;
+}
+
+.item_noShow {
+  width: 7%;
+  padding:16px 4px 16px 4px !important;
+  font-weight: bold !important;
+}
+
+.description_goodsShow {
+  width: 33%;
+  font-weight: bold !important;
+  overflow-wrap: anywhere;
+  padding:16px 4px 16px 4px !important;
+}
+
+.markShow {
+  width: 15.5%;
+  padding:16px 4px 16px 4px !important;
+  font-weight: bold !important;
+  overflow-wrap: anywhere;
+}
+
+.filingdescription_goodsShow {
+  width: 25%;
+  font-weight: bold !important;
+  overflow-wrap: anywhere;
+  padding:16px 4px 16px 4px !important;
+}
+
+.CocmarkShow {
+  width: 16%;
+  font-weight: bold !important;
+  overflow-wrap: anywhere;
+  padding:16px 4px 16px 4px !important;
+}
+
+.unit_quantityShow{
+width: 12.5%;
+font-weight: bold !important;
+padding:16px 4px 16px 4px !important;
+}
+
+.gross_packageShow{
+  width: 9%;
+  font-weight: bold !important;
+  padding:16px 4px 16px 4px !important;
+  }
+
+.Cocgross_packageShow{
+    width: 17%;
+    font-weight: bold !important;
+    padding:16px 4px 16px 4px !important;
+    }
+
+.filinghts_codeShow{
+  width: 16%;
+  font-weight: bold !important;
+  padding:16px 4px 16px 4px !important;
+  }
+
+  .Billno_packageShow{
+    width: 16%;
+    overflow-wrap: anywhere;
+    font-weight: bold !important;
+    padding:16px 4px 16px 4px !important;
+    }
+  
+
+.unit_typeShow{
+  font-weight: bold !important;
+  padding:16px 4px 16px 4px !important;
+  width: 8%;
+}
+
+.filingmanufactureShow{
+  font-weight: bold !important;
+  padding:16px 4px 16px 4px !important;
+  width: 25%;
+}
+
+.priceShow{
+  font-weight: bold !important;
+  padding:16px 4px 16px 4px !important;
+}
+.country_name {
+  font-weight: bold !important;
+  padding:16px 4px 16px 4px !important;
+}
+
+.amountShow{
+  font-weight: bold !important;
+  padding:16px 7px 16px 4px !important;
+}
+
+.gridPrice {
+  max-width:13.6667% !important;
+  text-align: center;
+}
+
+.gridAmount {
+  max-width:13% !important; 
+  text-align: center;
+}
+
+/* --------- Packing List Show --------- */
+
+.product_numberPacking {
+  font-weight: bold !important;
+   border-bottom: none !important;
+   width: 11% ;
+}
+
+.description_goodsPacking {
+  font-weight: bold !important;
+   border-bottom: none !important;
+   width: 22%;
+   overflow-wrap: anywhere !important;
+}
+
+.unit_quantityPacking {
+  font-weight: bold !important;
+   border-bottom: none !important;
+   width: 6%;
+}
+
+.grid1 {
+  max-width: 48% !important;
+  height: 4rem;
+}
+
+.grid2 {
+  max-width: 14% !important;
+  height: 4rem;
+}
+
+.grid3 {
+  max-width: 11% !important;
+  height: 4rem;
+}
+
+.grid4 {
+  max-width: 16% !important;
+  height: 4rem;
+}
+
+.grid5 {
+  max-width: 11% !important;
+  height: 4rem;
+  padding-right: 1em !important;
+}
+
+.valuePacking {
+  font-weight: bold !important;
+   border-bottom: none !important;
+   width: 1%;
+   padding: 0px !important;
+}
+
+.prodHeader {
+  line-height: 90px !important;
+  text-align: center;
+}
+
+.unitHeader{
+  padding: 30% 0 !important; 
+  text-align: center;
+}
+
+.kindHeader{
+  padding: 15% 0 !important; 
+  text-align: center;
+}
+
+.gridHeader{
+  padding: 2% 0 !important; 
+  max-width: 16% !important;
+  min-width: 10% !important;
+  text-align: center;
+}
+
+.grossHeader{
+  padding: 12% 0 ; 
+  text-align: center;
+}
+
+/* ---------Show ToolBar Alignment --------- */
+
+.gridPadding{
+  padding-left: 25% !important;
+}
+
+.AcceptButton {
+  color: white !important;
+  background-color: green !important;
+}
+
+.acceptText {
+  margin-left: -22% !important;
+}
+
+/* --------- Total --------- */
+
+.total_quantityShow {
+  text-align: center ;
+  max-width: 13.5% !important;
+}
+
+.total_amountShow {
+  text-align: right ;
+  max-width: 36.5% !important;
+  padding-right: 7% !important;
+}
+
+.textTotal {
+  text-align: right ;
+  max-width: 40% !important;
+}
+
+.quantityTotal {
+  text-align: center ;
+  max-width: 10% !important;
+  padding-left: 3em !important;
+}
+
+.totalPacking {
+  text-align: right ;
+  max-width: 14% !important;
+  padding-right: 0.7em !important;
+}
+
+.grossPackingShow {
+  text-align: right ;
+  max-width: 16% !important;
+}
+
+.wtPackingShow {
+  text-align: right ;
+  max-width: 11% !important;
+}
+
+.measurePacking {
+  text-align: right ;
+  max-width: 10% !important;
+}
+
+/* --------- Invoice --------- */
+
+.paddingBottomInvoice{
+  padding-bottom: 2em !important;
+}
+
+.dialogbox {
+  width: 92% !important;
+}
+
+/* --------- Invoice Number --------- */
+
+.padding {
+  padding: 1em !important;
+}
+
+.invoiceNumber {
+  display: flex ;
+  align-items:center;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+.fontSize{
+  font-size: 16px !important;
+}
+
+.span  {
+  text-transform: lowercase;
+  /* text-transform: uppercase; */
+}
+/* .span ::first-letter {
+  
+} */
+
+
+.Access{
+  display: block;
+  float: left;
+  width:78% !important;
+  margin-left: 10px !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .measure {
+    width:13% !important;
+  margin-left: 10px !important;
+  }
+}
+
+.ribbon {
+  position: relative;
+  background-size: cover;
+  text-transform: uppercase;
+  color: white;
+}
+
+.wrap {
+  width: 100%;
+  height: 188px;
+  position: absolute;
+  top: -15px;
+  left: -20px;
+  overflow: hidden;
+}
+.wrap:before, .wrap:after {
+  content: ""; 
+  position: absolute;
+}
+.wrap:before {
+  width: 40px;
+  height: 8px;
+  left: 100px;
+  background: #4D6530;
+  border-radius: 8px 8px 0px 0px;
+}
+.wrap:after {
+  width: 9px;
+  height: 30px;
+  left: 3px;
+  top: 110px;
+  background: #4D6530;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.wrapPDF {
+  width: 10%;
+  height: 130px;
+  position: absolute;
+  top: 2em;
+  left: 1.1em;
+  overflow: hidden;
+}
+.wrapPDF:before, .wrapPDF:after {
+  content: ""; 
+  position: absolute;
+}
+.wrapPDF:before {
+  width: 40px;
+  height: 8px;
+  left: 100px;
+  background: #4D6530;
+  border-radius: 8px 8px 0px 0px;
+}
+.wrapPDF:after {
+  width: 9px;
+  height: 30px;
+  left: 3px;
+  top: 110px;
+  background: #4D6530;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.ribbon6 {
+  width: 188px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  z-index: 2;
+  overflow: hidden;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  border: 1px dashed;
+  box-shadow:0 0 0 3px #57DD43,  0px 21px 5px -18px rgba(0,0,0,0.6);
+  background: #57DD43;
+  text-align: center;
+}
+
+
